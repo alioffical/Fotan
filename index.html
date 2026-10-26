@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>RevLeak AI — 24/7 AI Consultation &amp; Speed-to-Lead Concierge</title>
+  <meta name="description" content="RevLeak AI installs a 24/7 consultation concierge that answers, qualifies, and texts a booking confirmation the same night. $997 48-hour turnkey setup or a $1,500–$2,000/mo managed retainer."/>
+  <meta name="theme-color" content="#090d14"/>
+  <meta property="og:title" content="RevLeak AI — 24/7 AI Consultation &amp; Speed-to-Lead Concierge"/>
+  <meta property="og:description" content="Answer the 9:30pm high-ticket inquiry before it becomes a missed call. 48-hour setup for $997, or a managed retainer from $1,500/mo."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://alioffical.github.io/Fotan/"/>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,520;9..144,640&family=Outfit:wght@360;480;580;700&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg: #090d14;
+      --bg-2: #101722;
+      --ink: #f6f3ec;
+      --muted: #a7b0be;
+      --line: rgba(246, 243, 236, 0.1);
+      --gold: #e7b15a;
+      --gold-2: #f3d7a1;
+      --ink-btn: #1c1408;
+      --mint: #7defc3;
+      --bad: #ff8d82;
+      --mid: #f0c27a;
+      --shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(900px 480px at 8% -10%, rgba(231, 177, 90, 0.16), transparent 55%),
+        radial-gradient(800px 500px at 100% 0%, rgba(80, 130, 180, 0.14), transparent 50%),
+        var(--bg);
+      color: var(--ink);
+      font-family: Outfit, "Segoe UI", sans-serif;
+      font-weight: 360;
+      line-height: 1.5;
+    }
+    a { color: inherit; }
+    img { max-width: 100%; }
+    .wrap { width: min(1140px, calc(100% - 32px)); margin: 0 auto; }
+    .skip {
+      position: absolute; left: 12px; top: -40px; background: var(--gold); color: var(--ink-btn);
+      padding: 8px 12px; border-radius: 8px; z-index: 20;
+    }
+    .skip:focus { top: 12px; }
+    header {
+      position: sticky; top: 0; z-index: 30;
+      backdrop-filter: blur(16px);
+      background: rgba(9, 13, 20, 0.78);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 72px; }
+    .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 700; letter-spacing: -0.02em; }
+    .mark {
+      width: 34px; height: 34px; border-radius: 10px;
+      background: linear-gradient(160deg, var(--gold-2), var(--gold));
+      color: var(--ink-btn); display: grid; place-items: center; font-family: Fraunces, serif; font-weight: 640;
+    }
+    .nav-links { display: flex; align-items: center; gap: 18px; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: 14px; }
+    .nav-links a:hover { color: var(--ink); }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      border: 0; cursor: pointer; text-decoration: none; border-radius: 999px;
+      padding: 12px 18px; font-family: inherit; font-weight: 700; font-size: 14px;
+    }
+    .btn-gold { background: linear-gradient(180deg, #f0c98a, var(--gold)); color: var(--ink-btn); }
+    .btn-gold:hover { filter: brightness(1.05); }
+    .btn-ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+    .btn-ghost:hover { border-color: rgba(246, 243, 236, 0.28); }
+    .btn-mint { background: #12382c; color: var(--mint); border: 1px solid rgba(125, 239, 195, 0.35); }
+    .hero { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items: center; padding: 64px 0 36px; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      color: var(--gold-2); letter-spacing: 0.14em; text-transform: uppercase; font-size: 12px; font-weight: 700;
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: #3ddc97; box-shadow: 0 0 0 6px rgba(61, 220, 151, 0.12); }
+    h1, h2, h3 { font-family: Fraunces, Georgia, serif; font-weight: 560; letter-spacing: -0.03em; }
+    h1 { font-size: clamp(40px, 5vw, 68px); line-height: 0.98; margin: 14px 0 16px; }
+    .lede { font-size: 18px; color: var(--muted); max-width: 540px; margin: 0 0 22px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 22px; }
+    .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 520px; }
+    .stat { border: 1px solid var(--line); background: rgba(16, 23, 34, 0.7); border-radius: 14px; padding: 12px 14px; }
+    .stat b { display: block; font-size: 18px; }
+    .stat span { color: var(--muted); font-size: 12px; }
+    .widget {
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), transparent 30%), var(--bg-2);
+      border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow); overflow: hidden;
+    }
+    .widget-head { display: flex; justify-content: space-between; gap: 12px; padding: 16px 16px 12px; border-bottom: 1px solid var(--line); }
+    .widget-head strong { display: block; }
+    .widget-head span { color: var(--muted); font-size: 12px; }
+    .live { color: var(--mint); font-size: 12px; font-weight: 700; }
+    .log { min-height: 280px; max-height: 360px; overflow: auto; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+    .bubble { max-width: 86%; padding: 12px 14px; border-radius: 16px; font-size: 14px; }
+    .bubble.bot { background: #182232; border-bottom-left-radius: 4px; }
+    .bubble.user { background: #3d4f73; margin-left: auto; border-bottom-right-radius: 4px; }
+    .bubble.typing { color: var(--muted); letter-spacing: 0.2em; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 16px 12px; }
+    .chip {
+      background: transparent; color: var(--gold-2); border: 1px solid rgba(231, 177, 90, 0.35);
+      border-radius: 999px; padding: 7px 10px; font: inherit; font-size: 12px; cursor: pointer;
+    }
+    .chip:hover { background: rgba(231, 177, 90, 0.1); }
+    .composer { display: flex; gap: 8px; padding: 0 16px 16px; }
+    .composer input {
+      flex: 1; background: #0c121b; color: var(--ink); border: 1px solid var(--line);
+      border-radius: 12px; padding: 12px 12px; font: inherit;
+    }
+    .composer input:focus { outline: 2px solid rgba(231, 177, 90, 0.45); border-color: transparent; }
+    .composer button { border-radius: 12px; }
+    section { padding: 28px 0; }
+    .section-kicker { color: var(--gold); font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 700; }
+    h2 { font-size: clamp(32px, 4vw, 46px); line-height: 1.05; margin: 8px 0 12px; }
+    .sub { color: var(--muted); max-width: 640px; }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 22px; }
+    .panel { background: rgba(16, 23, 34, 0.78); border: 1px solid var(--line); border-radius: 18px; padding: 20px; }
+    .num { font-family: Fraunces, serif; color: var(--gold); font-size: 28px; }
+    .panel h3 { margin: 8px 0; font-size: 24px; }
+    .panel p { margin: 0; color: var(--muted); }
+    .prices { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 22px; }
+    .price {
+      position: relative; border-radius: 22px; padding: 24px; border: 1px solid var(--line); background: #101722;
+    }
+    .price.featured { border-color: rgba(231, 177, 90, 0.55); background: linear-gradient(180deg, rgba(231, 177, 90, 0.1), #101722 40%); }
+    .flag { position: absolute; top: 16px; right: 16px; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-btn); background: var(--gold); border-radius: 999px; padding: 4px 8px; }
+    .amount { font-family: Fraunces, serif; font-size: 52px; letter-spacing: -0.04em; margin: 8px 0 0; }
+    .amount small { font-size: 16px; color: var(--muted); letter-spacing: 0; }
+    .price ul { padding-left: 18px; color: var(--muted); }
+    .price li { margin: 8px 0; }
+    .price .btn { width: 100%; margin-top: 8px; }
+    .fine { color: var(--muted); font-size: 13px; margin-top: 14px; }
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0; }
+    .filter, .search {
+      background: #101722; color: var(--ink); border: 1px solid var(--line); border-radius: 999px; padding: 8px 12px; font: inherit; font-size: 13px;
+    }
+    .filter[aria-pressed="true"] { background: var(--gold); color: var(--ink-btn); border-color: transparent; font-weight: 700; }
+    .search { border-radius: 12px; min-width: min(280px, 100%); }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .demo-card { background: #101722; border: 1px solid var(--line); border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 6px; }
+    .demo-card h3 { margin: 4px 0 0; font-size: 22px; }
+    .demo-top, .card-link-row { display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+    .vtag { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-2); }
+    .score { font-size: 12px; font-weight: 700; border-radius: 999px; padding: 3px 8px; }
+    .score.bad { color: #3b1212; background: var(--bad); }
+    .score.mid { color: #3a2a10; background: var(--mid); }
+    .score.good { color: #06281c; background: var(--mint); }
+    .city, .meta, .leak { margin: 0; color: var(--muted); font-size: 14px; }
+    .leak strong { color: var(--ink); }
+    .card-link { margin-top: 8px; color: var(--gold-2); font-weight: 700; text-decoration: none; }
+    .card-link:hover { text-decoration: underline; }
+    .empty { display: none; color: var(--muted); padding: 12px 0 24px; }
+    .faq { display: grid; gap: 10px; margin-top: 16px; }
+    details { background: #101722; border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+    summary { cursor: pointer; font-weight: 580; }
+    details p { color: var(--muted); margin: 8px 0 0; }
+    .closeout {
+      margin: 20px 0 48px; padding: 28px; border-radius: 24px;
+      background: linear-gradient(120deg, rgba(231, 177, 90, 0.16), rgba(16, 23, 34, 0.9) 45%);
+      border: 1px solid rgba(231, 177, 90, 0.3);
+      display: flex; justify-content: space-between; gap: 18px; align-items: center;
+    }
+    footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    footer a { color: var(--gold-2); }
+    .modal {
+      position: fixed; inset: 0; background: rgba(4, 6, 10, 0.78); display: none;
+      align-items: center; justify-content: center; padding: 20px; z-index: 50;
+    }
+    .modal.open { display: flex; }
+    .sheet {
+      width: min(560px, 100%); max-height: min(92vh, 820px); overflow: auto;
+      background: #141b27; border: 1px solid var(--line); border-radius: 20px; padding: 22px;
+    }
+    .sheet h3 { margin: 0 0 6px; font-size: 30px; }
+    label { display: block; font-size: 13px; margin: 12px 0 6px; color: var(--muted); }
+    input[type="text"], input[type="url"], select, textarea {
+      width: 100%; background: #0c121b; color: var(--ink); border: 1px solid var(--line);
+      border-radius: 12px; padding: 12px; font: inherit;
+    }
+    textarea { min-height: 80px; resize: vertical; }
+    .plans { display: grid; gap: 8px; margin-top: 8px; }
+    .plans label {
+      display: grid; grid-template-columns: 18px 1fr; gap: 10px; align-items: start;
+      margin: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; color: var(--ink);
+    }
+    .plans label:has(input:checked) { border-color: rgba(231, 177, 90, 0.7); background: rgba(231, 177, 90, 0.08); }
+    .sheet-actions { display: flex; gap: 8px; margin-top: 16px; }
+    .sheet-actions .btn { flex: 1; }
+    @media (max-width: 900px) {
+      .hero, .steps, .prices, .grid { grid-template-columns: 1fr; }
+      .nav-links a:not(.btn) { display: none; }
+      .closeout { flex-direction: column; align-items: flex-start; }
+      h1 { font-size: 42px; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#top"><span class="mark">R</span> RevLeak AI</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#demos">50 live demos</a>
+        <a href="mailto:revleak@mail.grokbot.com">revleak@mail.grokbot.com</a>
+        <button class="btn btn-gold" type="button" data-open-plan="setup">Activate setup</button>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap hero" id="top">
+      <div>
+        <div class="eyebrow"><span class="dot" aria-hidden="true"></span> 24/7 AI Consultation &amp; Speed-to-Lead Concierge</div>
+        <h1>The consult gets booked before your front desk opens.</h1>
+        <p class="lede">High-ticket clinics and storm-restoration firms lose the 9:30pm visitor to a static form. RevLeak answers in plain language, qualifies the case, and texts a confirmation while the lead is still on the page.</p>
+        <div class="cta-row">
+          <button class="btn btn-gold" type="button" data-open-plan="setup">Activate the $997 48-hour setup</button>
+          <button class="btn btn-mint" type="button" data-open-plan="pilot">Start a 7-day pilot · $0 today</button>
+        </div>
+        <div class="stat-row">
+          <div class="stat"><b>48 hours</b><span>Turnkey install window</span></div>
+          <div class="stat"><b>$997</b><span>One-time setup, no retainer required</span></div>
+          <div class="stat"><b>$1,500–$2,000</b><span>Monthly managed retainer</span></div>
+        </div>
+      </div>
+      <section class="widget" aria-labelledby="demo-title">
+        <div class="widget-head">
+          <div>
+            <strong id="demo-title">Live concierge demo</strong>
+            <span>Interactive preview of the intake we install. Runs in your browser.</span>
+          </div>
+          <div class="live">Desk online</div>
+        </div>
+        <div class="log" id="log" aria-live="polite"></div>
+        <div class="chips" role="group" aria-label="Suggested questions">
+          <button class="chip" type="button" data-ask="What is included in the $997 setup?">$997 setup</button>
+          <button class="chip" type="button" data-ask="How does the $1,500 to $2,000 retainer work?">Retainer</button>
+          <button class="chip" type="button" data-ask="I need a hail inspection this week. Can I book tonight?">Hail consult</button>
+          <button class="chip" type="button" data-ask="What happens with an after-hours implant inquiry?">Implant inquiry</button>
+        </div>
+        <form class="composer" id="composer">
+          <label class="sr-only" for="ask" style="position:absolute;left:-999px;">Message the concierge</label>
+          <input id="ask" name="ask" type="text" autocomplete="off" placeholder="Ask about setup, pricing, or a 9:30pm consult" required/>
+          <button class="btn btn-gold" type="submit">Send</button>
+        </form>
+      </section>
+    </div>
+
+    <section class="wrap" id="how">
+      <div class="section-kicker">The night shift</div>
+      <h2>Speed-to-lead, without adding a night receptionist.</h2>
+      <p class="sub">RevLeak sits on the site you already have. It is built for medspas, implant and cosmetic dentistry, plastic surgery and hair restoration, and storm roofing — practices where one booked case pays for the month.</p>
+      <div class="steps">
+        <article class="panel">
+          <div class="num">01</div>
+          <h3>Answer</h3>
+          <p>The concierge greets the visitor with the treatment or project they came for, in the city you serve, including after hours and weekends.</p>
+        </article>
+        <article class="panel">
+          <div class="num">02</div>
+          <h3>Qualify</h3>
+          <p>It asks the questions your coordinator would: timeline, insurance or financing interest, and the procedure or storm date. No dead-end contact form.</p>
+        </article>
+        <article class="panel">
+          <div class="num">03</div>
+          <h3>Confirm</h3>
+          <p>A mobile text locks the consultation slot. Your desk sees a booked conversation in the morning, and activations land at revleak@mail.grokbot.com.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" id="pricing">
+      <div class="section-kicker">Two ways to turn it on</div>
+      <h2>Flat setup, or a desk that stays on the account.</h2>
+      <p class="sub">Both paths are confirmed by email to the RevLeak desk. There is no checkout cart on this page — activation opens a pre-addressed note so a person replies with the install window.</p>
+      <div class="prices">
+        <article class="price featured">
+          <span class="flag">Fastest cash</span>
+          <div class="section-kicker">48-hour turnkey setup</div>
+          <p class="amount">$997 <small>once</small></p>
+          <ul>
+            <li>Custom 24/7 consultation widget trained on your treatments and service area</li>
+            <li>Instant SMS speed-to-lead when a form or missed call comes in</li>
+            <li>Calendar handoff so the consult is not stuck in a callback queue</li>
+            <li>Installed on your existing site within 48 hours</li>
+            <li>No monthly contract required after the setup fee</li>
+          </ul>
+          <button class="btn btn-gold" type="button" data-open-plan="setup">Activate the $997 setup</button>
+        </article>
+        <article class="price">
+          <div class="section-kicker">Managed retainer</div>
+          <p class="amount">$1,500–$2,000 <small>/mo</small></p>
+          <ul>
+            <li>$1,500/mo for a single-location medspa or dental practice</li>
+            <li>$2,000/mo for multi-location roofing, surgery, and implant groups</li>
+            <li>24/7 web concierge plus missed-call and form text-back</li>
+            <li>Dedicated texting number and ongoing script optimization</li>
+            <li>7-day live pilot at $0 upfront. The retainer starts after you see booked consults</li>
+          </ul>
+          <button class="btn btn-mint" type="button" data-open-plan="retainer-2000">Activate the managed retainer</button>
+        </article>
+      </div>
+      <p class="fine">Prefer proof first? <button class="btn btn-ghost" type="button" data-open-plan="pilot" style="padding:8px 12px;">Request the 7-day pilot</button> and the same desk inbox confirms it.</p>
+    </section>
+
+    <section class="wrap" id="demos">
+      <div class="section-kicker">Proof library</div>
+      <h2>50 interactive prospect demos.</h2>
+      <p class="sub">Each page is a speed-to-lead diagnostic and a working concierge prototype for a real public website. Dollar figures are modeled from the page check and a category case value. They are illustrations, not that practice's books.</p>
+      <div class="filters">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All 50</button>
+        <button class="filter" type="button" data-filter="roofing" aria-pressed="false">Roofing</button>
+        <button class="filter" type="button" data-filter="dentistry" aria-pressed="false">Dentistry</button>
+        <button class="filter" type="button" data-filter="surgery" aria-pressed="false">Surgery &amp; hair</button>
+        <button class="filter" type="button" data-filter="medspa" aria-pressed="false">Medspa</button>
+        <input class="search" id="search" type="search" placeholder="Search a practice or city" aria-label="Search demos"/>
+      </div>
+      <div class="grid" id="grid">
+
+          <article class="demo-card" data-vertical="roofing" data-search="cmac roofing dallas / houston / austin storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>CMAC Roofing</h3>
+            <p class="city">Dallas / Houston / Austin</p>
+            <p class="leak"><strong>$90,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">158 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/cmac-roofing_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="cmac roofing — houston division houston / rosenberg, tx storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>CMAC Roofing — Houston Division</h3>
+            <p class="city">Houston / Rosenberg, TX</p>
+            <p class="leak"><strong>$88,800/mo</strong> modeled after-hours gap</p>
+            <p class="meta">221 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/cmac-roofing-houston-division_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="roof squad houston / denver / orlando storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Roof Squad</h3>
+            <p class="city">Houston / Denver / Orlando</p>
+            <p class="leak"><strong>$87,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">143 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/roof-squad_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="cmac roofing — austin division austin / georgetown, tx storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>CMAC Roofing — Austin Division</h3>
+            <p class="city">Austin / Georgetown, TX</p>
+            <p class="leak"><strong>$87,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">232 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/cmac-roofing-austin-division_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="weather the storm roofing houston &amp; dallas, tx storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Weather The Storm Roofing</h3>
+            <p class="city">Houston &amp; Dallas, TX</p>
+            <p class="leak"><strong>$85,200/mo</strong> modeled after-hours gap</p>
+            <p class="meta">247 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/weather-the-storm-roofing_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="design roofing &amp; general contractors houston / dallas / austin storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Design Roofing &amp; General Contractors</h3>
+            <p class="city">Houston / Dallas / Austin</p>
+            <p class="leak"><strong>$84,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">297 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/design-roofing-general-contractors_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="roof warrior dallas / denver / tampa / orlando storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Roof Warrior</h3>
+            <p class="city">Dallas / Denver / Tampa / Orlando</p>
+            <p class="leak"><strong>$82,800/mo</strong> modeled after-hours gap</p>
+            <p class="meta">549 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/roof-warrior_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="roof royale austin / dfw / houston storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Roof Royale</h3>
+            <p class="city">Austin / DFW / Houston</p>
+            <p class="leak"><strong>$81,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">302 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/roof-royale_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="rcusa roofing &amp; construction dallas &amp; austin, tx storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>RCUSA Roofing &amp; Construction</h3>
+            <p class="city">Dallas &amp; Austin, TX</p>
+            <p class="leak"><strong>$79,200/mo</strong> modeled after-hours gap</p>
+            <p class="meta">222 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/rcusa-roofing-construction_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="storm authority roofing tampa bay, fl storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Storm Authority Roofing</h3>
+            <p class="city">Tampa Bay, FL</p>
+            <p class="leak"><strong>$78,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">175 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/storm-authority-roofing_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="ap roofing &amp; construction austin / dfw / houston storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>AP Roofing &amp; Construction</h3>
+            <p class="city">Austin / DFW / Houston</p>
+            <p class="leak"><strong>$76,800/mo</strong> modeled after-hours gap</p>
+            <p class="meta">325 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/ap-roofing-construction_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="roofing" data-search="capstone roofing services houston / austin / dfw storm roofing &amp; restoration">
+            <div class="demo-top">
+              <span class="vtag">Storm roofing</span>
+              <span class="score bad">34/100</span>
+            </div>
+            <h3>Capstone Roofing Services</h3>
+            <p class="city">Houston / Austin / DFW</p>
+            <p class="leak"><strong>$75,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">174 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/capstone-roofing-services_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="az all-on-4 implant center scottsdale &amp; gilbert, az cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>AZ All-on-4 Implant Center</h3>
+            <p class="city">Scottsdale &amp; Gilbert, AZ</p>
+            <p class="leak"><strong>$57,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">368 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/az-all-on-4-implant-center_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="surgery" data-search="jack zamora md cosmetic surgery cherry creek / denver, co plastic surgery &amp; hair">
+            <div class="demo-top">
+              <span class="vtag">Plastic surgery</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Jack Zamora MD Cosmetic Surgery</h3>
+            <p class="city">Cherry Creek / Denver, CO</p>
+            <p class="leak"><strong>$52,800/mo</strong> modeled after-hours gap</p>
+            <p class="meta">468 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/jack-zamora-md-cosmetic-surgery_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="surgery" data-search="river oaks plastic surgery center houston, tx plastic surgery &amp; hair">
+            <div class="demo-top">
+              <span class="vtag">Plastic surgery</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>River Oaks Plastic Surgery Center</h3>
+            <p class="city">Houston, TX</p>
+            <p class="leak"><strong>$51,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">35 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/river-oaks-plastic-surgery-center_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="new smiles texas implant center houston, tx cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>New Smiles Texas Implant Center</h3>
+            <p class="city">Houston, TX</p>
+            <p class="leak"><strong>$51,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">3027 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/new-smiles-texas-implant-center_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="surgery" data-search="jeffery k. krueger md plastic surgery dallas, tx plastic surgery &amp; hair">
+            <div class="demo-top">
+              <span class="vtag">Plastic surgery</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Jeffery K. Krueger MD Plastic Surgery</h3>
+            <p class="city">Dallas, TX</p>
+            <p class="leak"><strong>$49,200/mo</strong> modeled after-hours gap</p>
+            <p class="meta">12337 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/jeffery-k-krueger-md-plastic-surgery_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="smile montecito implant &amp; sedation montecito / santa barbara, ca cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Smile Montecito Implant &amp; Sedation</h3>
+            <p class="city">Montecito / Santa Barbara, CA</p>
+            <p class="leak"><strong>$46,800/mo</strong> modeled after-hours gap</p>
+            <p class="meta">425 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/smile-montecito-implant-sedation_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="surgery" data-search="fuesion hair clinics beverly hills, ca plastic surgery &amp; hair restoration">
+            <div class="demo-top">
+              <span class="vtag">Plastic surgery</span>
+              <span class="score bad">34/100</span>
+            </div>
+            <h3>FUEsion Hair Clinics</h3>
+            <p class="city">Beverly Hills, CA</p>
+            <p class="leak"><strong>$46,800/mo</strong> modeled after-hours gap</p>
+            <p class="meta">175 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/fuesion-hair-clinics_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="surgery" data-search="austin face &amp; body austin, tx plastic surgery &amp; hair restoration">
+            <div class="demo-top">
+              <span class="vtag">Plastic surgery</span>
+              <span class="score bad">30/100</span>
+            </div>
+            <h3>Austin Face &amp; Body</h3>
+            <p class="city">Austin, TX</p>
+            <p class="leak"><strong>$45,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">1413 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/austin-face-body_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="atlanta center for restorative dentistry atlanta, ga cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Atlanta Center for Restorative Dentistry</h3>
+            <p class="city">Atlanta, GA</p>
+            <p class="leak"><strong>$41,400/mo</strong> modeled after-hours gap</p>
+            <p class="meta">171 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/atlanta-center-for-restorative-dentistry_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="advanced center for cosmetic &amp; implant dentistry miami, fl cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Advanced Center for Cosmetic &amp; Implant Dentistry</h3>
+            <p class="city">Miami, FL</p>
+            <p class="leak"><strong>$40,800/mo</strong> modeled after-hours gap</p>
+            <p class="meta">12165 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/advanced-center-for-cosmetic-implant-dentistry_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="nuve dental dallas, tx cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Nuve Dental</h3>
+            <p class="city">Dallas, TX</p>
+            <p class="leak"><strong>$39,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">277 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/nuve-dental_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="nashville aesthetics &amp; implants nashville, tn cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Nashville Aesthetics &amp; Implants</h3>
+            <p class="city">Nashville, TN</p>
+            <p class="leak"><strong>$38,400/mo</strong> modeled after-hours gap</p>
+            <p class="meta">572 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/nashville-aesthetics-implants_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="sd oral &amp; facial surgery san diego, ca cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>SD Oral &amp; Facial Surgery</h3>
+            <p class="city">San Diego, CA</p>
+            <p class="leak"><strong>$37,200/mo</strong> modeled after-hours gap</p>
+            <p class="meta">140 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/sd-oral-facial-surgery_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="surgery" data-search="care4hair clinic miami &amp; dallas plastic surgery &amp; hair restoration">
+            <div class="demo-top">
+              <span class="vtag">Plastic surgery</span>
+              <span class="score bad">38/100</span>
+            </div>
+            <h3>Care4Hair Clinic</h3>
+            <p class="city">Miami &amp; Dallas</p>
+            <p class="leak"><strong>$37,200/mo</strong> modeled after-hours gap</p>
+            <p class="meta">896 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/care4hair-clinic_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="blu dental implant &amp; cosmetic dentistry austin, tx cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">34/100</span>
+            </div>
+            <h3>Blu Dental Implant &amp; Cosmetic Dentistry</h3>
+            <p class="city">Austin, TX</p>
+            <p class="leak"><strong>$34,800/mo</strong> modeled after-hours gap</p>
+            <p class="meta">160 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/blu-dental-implant-cosmetic-dentistry_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="dr. e cosmetic &amp; family dental phoenix / ahwatukee, az cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Dr. E Cosmetic &amp; Family Dental</h3>
+            <p class="city">Phoenix / Ahwatukee, AZ</p>
+            <p class="leak"><strong>$33,600/mo</strong> modeled after-hours gap</p>
+            <p class="meta">182 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/dr-e-cosmetic-family-dental_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="dizon dental aesthetics dallas, tx cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Dizon Dental Aesthetics</h3>
+            <p class="city">Dallas, TX</p>
+            <p class="leak"><strong>$33,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">336 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/dizon-dental-aesthetics_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="tusk dental charlotte charlotte, nc cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Tusk Dental Charlotte</h3>
+            <p class="city">Charlotte, NC</p>
+            <p class="leak"><strong>$32,400/mo</strong> modeled after-hours gap</p>
+            <p class="meta">366 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/tusk-dental-charlotte_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="surgery" data-search="dr. troell las vegas cosmetic surgery las vegas, nv plastic surgery &amp; hair">
+            <div class="demo-top">
+              <span class="vtag">Plastic surgery</span>
+              <span class="score mid">54/100</span>
+            </div>
+            <h3>Dr. Troell Las Vegas Cosmetic Surgery</h3>
+            <p class="city">Las Vegas, NV</p>
+            <p class="leak"><strong>$31,600/mo</strong> modeled after-hours gap</p>
+            <p class="meta">80 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/dr-troell-las-vegas-cosmetic-surgery_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="angie dinh dds cosmetic &amp; implant houston, tx cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Angie Dinh DDS Cosmetic &amp; Implant</h3>
+            <p class="city">Houston, TX</p>
+            <p class="leak"><strong>$31,200/mo</strong> modeled after-hours gap</p>
+            <p class="meta">230 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/angie-dinh-dds-cosmetic-implant_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="dental implants tampa fl tampa / lutz, fl cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score mid">54/100</span>
+            </div>
+            <h3>Dental Implants Tampa FL</h3>
+            <p class="city">Tampa / Lutz, FL</p>
+            <p class="leak"><strong>$30,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">408 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/dental-implants-tampa-fl_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="dentistry" data-search="cavazos cosmetic dentistry san antonio / tx cosmetic &amp; implant dentistry">
+            <div class="demo-top">
+              <span class="vtag">Implant dentistry</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Cavazos Cosmetic Dentistry</h3>
+            <p class="city">San Antonio / TX</p>
+            <p class="leak"><strong>$29,400/mo</strong> modeled after-hours gap</p>
+            <p class="meta">553 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/cavazos-cosmetic-dentistry_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="surgery" data-search="pearce plastic surgery austin, tx plastic surgery &amp; hair restoration">
+            <div class="demo-top">
+              <span class="vtag">Plastic surgery</span>
+              <span class="score good">72/100</span>
+            </div>
+            <h3>Pearce Plastic Surgery</h3>
+            <p class="city">Austin, TX</p>
+            <p class="leak"><strong>$28,500/mo</strong> modeled after-hours gap</p>
+            <p class="meta">246 ms first byte · retainer $2,000/mo</p>
+            <a class="card-link" href="audits/pearce-plastic-surgery_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="surgery" data-search="austin body contouring austin, tx plastic surgery &amp; hair restoration">
+            <div class="demo-top">
+              <span class="vtag">Plastic surgery</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Austin Body Contouring</h3>
+            <p class="city">Austin, TX</p>
+            <p class="leak"><strong>$19,200/mo</strong> modeled after-hours gap</p>
+            <p class="meta">211 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/austin-body-contouring_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="charette cosmetics miami / dallas / atlanta medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">26/100</span>
+            </div>
+            <h3>Charette Cosmetics</h3>
+            <p class="city">Miami / Dallas / Atlanta</p>
+            <p class="leak"><strong>$13,200/mo</strong> modeled after-hours gap</p>
+            <p class="meta">8487 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/charette-cosmetics_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="ember medical spa dallas dallas, tx medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Ember Medical Spa Dallas</h3>
+            <p class="city">Dallas, TX</p>
+            <p class="leak"><strong>$12,900/mo</strong> modeled after-hours gap</p>
+            <p class="meta">513 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/ember-medical-spa-dallas_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="moderne medical aesthetics scottsdale, az medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Moderne Medical Aesthetics</h3>
+            <p class="city">Scottsdale, AZ</p>
+            <p class="leak"><strong>$12,600/mo</strong> modeled after-hours gap</p>
+            <p class="meta">325 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/moderne-medical-aesthetics_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="artavi med spa houston, tx medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Artavi Med Spa</h3>
+            <p class="city">Houston, TX</p>
+            <p class="leak"><strong>$12,300/mo</strong> modeled after-hours gap</p>
+            <p class="meta">590 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/artavi-med-spa_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="sapphira prive medspa miami, fl medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Sapphira PRIVE MedSpa</h3>
+            <p class="city">Miami, FL</p>
+            <p class="leak"><strong>$11,700/mo</strong> modeled after-hours gap</p>
+            <p class="meta">1489 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/sapphira-prive-medspa_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="ageless anatomy med spa phoenix, az medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Ageless Anatomy Med Spa</h3>
+            <p class="city">Phoenix, AZ</p>
+            <p class="leak"><strong>$11,700/mo</strong> modeled after-hours gap</p>
+            <p class="meta">1893 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/ageless-anatomy-med-spa_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="glow medical aesthetics houston, tx medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Glow Medical Aesthetics</h3>
+            <p class="city">Houston, TX</p>
+            <p class="leak"><strong>$11,400/mo</strong> modeled after-hours gap</p>
+            <p class="meta">70 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/glow-medical-aesthetics_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="revive medical aesthetics scottsdale, az medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>reVive Medical Aesthetics</h3>
+            <p class="city">Scottsdale, AZ</p>
+            <p class="leak"><strong>$11,400/mo</strong> modeled after-hours gap</p>
+            <p class="meta">161 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/revive-medical-aesthetics_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="alonso aesthetics medspa tampa, fl medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">18/100</span>
+            </div>
+            <h3>Alonso Aesthetics MedSpa</h3>
+            <p class="city">Tampa, FL</p>
+            <p class="leak"><strong>$11,100/mo</strong> modeled after-hours gap</p>
+            <p class="meta">506 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/alonso-aesthetics-medspa_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="lvs med spas (la vie en rainey) austin, tx medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">34/100</span>
+            </div>
+            <h3>LVS Med Spas (La Vie En Rainey)</h3>
+            <p class="city">Austin, TX</p>
+            <p class="leak"><strong>$11,100/mo</strong> modeled after-hours gap</p>
+            <p class="meta">125 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/lvs-med-spas-la-vie-en-rainey_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="mskin med spa dallas, tx medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">26/100</span>
+            </div>
+            <h3>MSkin Med Spa</h3>
+            <p class="city">Dallas, TX</p>
+            <p class="leak"><strong>$10,800/mo</strong> modeled after-hours gap</p>
+            <p class="meta">2614 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/mskin-med-spa_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="national laser institute med spa scottsdale &amp; dallas medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">30/100</span>
+            </div>
+            <h3>National Laser Institute Med Spa</h3>
+            <p class="city">Scottsdale &amp; Dallas</p>
+            <p class="leak"><strong>$10,500/mo</strong> modeled after-hours gap</p>
+            <p class="meta">1914 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/national-laser-institute-med-spa_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="tu es belle spa houston, tx medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score bad">32/100</span>
+            </div>
+            <h3>Tu Es Belle Spa</h3>
+            <p class="city">Houston, TX</p>
+            <p class="leak"><strong>$9,900/mo</strong> modeled after-hours gap</p>
+            <p class="meta">148 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/tu-es-belle-spa_audit.html">Open interactive demo</a>
+          </article>
+
+          <article class="demo-card" data-vertical="medspa" data-search="elase med spa scottsdale / phoenix / fl medspa &amp; aesthetics">
+            <div class="demo-top">
+              <span class="vtag">Medspa</span>
+              <span class="score good">88/100</span>
+            </div>
+            <h3>Elase Med Spa</h3>
+            <p class="city">Scottsdale / Phoenix / FL</p>
+            <p class="leak"><strong>$6,000/mo</strong> modeled after-hours gap</p>
+            <p class="meta">229 ms first byte · retainer $1,500/mo</p>
+            <a class="card-link" href="audits/elase-med-spa_audit.html">Open interactive demo</a>
+          </article>
+      </div>
+      <p class="empty" id="empty">No demos match that filter. Clear the search or choose All 50.</p>
+    </section>
+
+    <section class="wrap" id="faq">
+      <div class="section-kicker">Before you write the desk</div>
+      <h2>Straight answers.</h2>
+      <div class="faq">
+        <details open>
+          <summary>What actually happens when I activate?</summary>
+          <p>Your note goes to revleak@mail.grokbot.com with the plan you picked. The desk replies with the install checklist: site access, the treatments to train, the booking calendar, and the texting number. The $997 setup targets a 48-hour turn-on. The pilot runs seven days before any retainer.</p>
+        </details>
+        <details>
+          <summary>Is the chat on this page a live model call?</summary>
+          <p>This preview is the intake pattern, running locally in your browser so the storefront stays fast and private. The installed concierge on a client site is configured for that practice's services, hours, and calendar. Activation is a real email to the desk, not a simulated send.</p>
+        </details>
+        <details>
+          <summary>Can I buy the setup without the monthly retainer?</summary>
+          <p>Yes. The 48-hour turnkey setup is a one-time $997 install with no required monthly contract. The managed retainer is the ongoing option when you want text-back, a dedicated number, and script tuning kept current.</p>
+        </details>
+        <details>
+          <summary>Who is this for?</summary>
+          <p>Practices where a single booked consultation is worth far more than the setup fee: storm restoration, implant and cosmetic dentistry, plastic surgery, hair restoration, and medspas. The library below shows the diagnostic format on 50 of those sites.</p>
+        </details>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <div class="closeout">
+        <div>
+          <div class="section-kicker">Desk</div>
+          <h2 style="margin-bottom:6px;">Put the concierge on your site this week.</h2>
+          <p class="sub">$997 turnkey, a $0 seven-day pilot, or the $1,500–$2,000/mo retainer. Every path writes revleak@mail.grokbot.com.</p>
+        </div>
+        <button class="btn btn-gold" type="button" data-open-plan="setup">Activate now</button>
+      </div>
+    </div>
+  </main>
+  <footer class="wrap">
+    <div>RevLeak AI · 24/7 consultation &amp; speed-to-lead concierge</div>
+    <div><a href="mailto:revleak@mail.grokbot.com">revleak@mail.grokbot.com</a> · <a href="#demos">Prospect demos</a></div>
+  </footer>
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <form class="sheet" id="activate">
+      <h3 id="modal-title">Activate RevLeak</h3>
+      <p class="sub" style="margin-top:0;">This opens your email app with a note addressed to <strong style="color:var(--ink)">revleak@mail.grokbot.com</strong>. Nothing is stored on this page.</p>
+      <label for="name">Your name</label>
+      <input id="name" name="name" type="text" required placeholder="Alex Morgan"/>
+      <label for="practice">Practice or company</label>
+      <input id="practice" name="practice" type="text" required placeholder="Northline Roofing"/>
+      <label for="website">Website</label>
+      <input id="website" name="website" type="url" placeholder="https://"/>
+      <div class="plans">
+        <label><input type="radio" name="plan" value="48-Hour Turnkey Setup — $997 one-time" data-plan="setup" checked/> <span><strong>$997 · 48-hour turnkey setup</strong><br/><span style="color:var(--muted)">One-time install. No monthly contract required.</span></span></label>
+        <label><input type="radio" name="plan" value="7-Day Live Pilot — $0 upfront" data-plan="pilot"/> <span><strong>$0 · 7-day live pilot</strong><br/><span style="color:var(--muted)">Retainer starts only after you see booked consults.</span></span></label>
+        <label><input type="radio" name="plan" value="Managed Retainer — $1,500/mo" data-plan="retainer-1500"/> <span><strong>$1,500/mo · single-location retainer</strong><br/><span style="color:var(--muted)">Concierge, text-back, dedicated number, ongoing tuning.</span></span></label>
+        <label><input type="radio" name="plan" value="Managed Retainer — $2,000/mo" data-plan="retainer-2000"/> <span><strong>$2,000/mo · multi-location retainer</strong><br/><span style="color:var(--muted)">For roofing, surgery, and implant groups.</span></span></label>
+      </div>
+      <label for="note">Anything the desk should know</label>
+      <textarea id="note" name="note" placeholder="Service lines, locations, and the calendar you book into."></textarea>
+      <div class="sheet-actions">
+        <button class="btn btn-gold" type="submit">Email revleak@mail.grokbot.com</button>
+        <button class="btn btn-ghost" type="button" id="close-modal">Close</button>
+      </div>
+    </form>
+  </div>
+  <script>
+    const DESK = "revleak@mail.grokbot.com";
+    const log = document.getElementById("log");
+    const replies = [
+      [/997|setup|install|48|turnkey/i, "The 48-hour turnkey setup is a flat $997. It includes a consultation concierge for your treatments and city, instant SMS speed-to-lead, and a calendar handoff. There is no required monthly contract. Use Activate and the note goes to revleak@mail.grokbot.com."],
+      [/retainer|1,?500|2,?000|managed|month/i, "The managed retainer is $1,500 per month for a single-location practice and $2,000 per month for multi-location roofing, surgery, and implant groups. It keeps the concierge, missed-call text-back, a dedicated number, and script tuning running. A 7-day pilot is $0 upfront."],
+      [/pilot|free|trial|proof/i, "The 7-day pilot is $0 today. After-hours and mobile inquiries are captured on your site. The retainer begins only after you have seen booked consultations come through. Confirm it by emailing revleak@mail.grokbot.com."],
+      [/hail|storm|roof|insurance|inspection/i, "For storm roofing, the concierge asks about the storm date, insurance status, and property address, then offers a same-week inspection instead of a contact form that waits until morning. I can open the $997 activation whenever you are ready."],
+      [/implant|dental|smile|all-on|dentist/i, "For implant and cosmetic dentistry, it answers the procedure question, asks about timing and financing interest, and locks a consultation on the spot. The morning desk inherits a booked patient, not a missed form."],
+      [/medspa|botox|filler|laser|spa|inject/i, "For a medspa, the concierge handles the treatment question, sets the expectation that the consult finalizes the plan, and takes a mobile number for the confirmation text. Single-location practices usually sit on the $1,500 retainer."],
+      [/plastic|surgery|hair|fue/i, "For plastic surgery and hair restoration, it pre-qualifies the procedure and books the consult the same night, instead of sending a high-intent visitor to next-day voicemail. Multi-location groups are typically the $2,000 retainer."],
+      [/book|consult|appointment|schedule|tonight/i, "Yes. That is the product: a same-night consultation request with a text confirmation. Tell me the practice, or press Activate and I will address the note to revleak@mail.grokbot.com."],
+      [/who|what are you|revleak|human|desk/i, "I am the RevLeak intake demo — the pattern installed as a 24/7 consultation concierge. This preview runs in your browser. A person at revleak@mail.grokbot.com handles real activations."]
+    ];
+
+    function addBubble(text, who) {
+      const el = document.createElement("div");
+      el.className = "bubble " + who;
+      el.textContent = text;
+      log.appendChild(el);
+      log.scrollTop = log.scrollHeight;
+      return el;
+    }
+
+    function answer(text) {
+      addBubble(text, "user");
+      const typing = addBubble("···", "bot typing");
+      const hit = replies.find(([rule]) => rule.test(text));
+      const reply = hit ? hit[1] : "I can walk through the $997 setup, the $1,500–$2,000 retainer, the 7-day pilot, or a sample roofing, implant, medspa, or surgery inquiry. Activations go to revleak@mail.grokbot.com.";
+      window.setTimeout(() => {
+        typing.remove();
+        addBubble(reply, "bot");
+      }, 420);
+    }
+
+    addBubble("RevLeak desk is on. Ask about the $997 setup, the retainer, or how a 9:30pm consult gets booked.", "bot");
+
+    document.getElementById("composer").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const input = document.getElementById("ask");
+      const text = input.value.trim();
+      if (!text) return;
+      input.value = "";
+      answer(text);
+    });
+    document.querySelectorAll("[data-ask]").forEach((button) => {
+      button.addEventListener("click", () => answer(button.getAttribute("data-ask")));
+    });
+
+    const modal = document.getElementById("modal");
+    function openModal(plan) {
+      modal.hidden = false;
+      modal.classList.add("open");
+      const radio = modal.querySelector('[data-plan="' + plan + '"]');
+      if (radio) radio.checked = true;
+      document.getElementById("name").focus();
+    }
+    function closeModal() {
+      modal.classList.remove("open");
+      modal.hidden = true;
+    }
+    document.querySelectorAll("[data-open-plan]").forEach((button) => {
+      button.addEventListener("click", () => openModal(button.getAttribute("data-open-plan")));
+    });
+    document.getElementById("close-modal").addEventListener("click", closeModal);
+    modal.addEventListener("click", (event) => { if (event.target === modal) closeModal(); });
+    document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeModal(); });
+
+    document.getElementById("activate").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const data = new FormData(event.target);
+      const subject = "Activate RevLeak AI — " + data.get("plan");
+      const body = [
+        "Name: " + data.get("name"),
+        "Practice: " + data.get("practice"),
+        "Website: " + (data.get("website") || "n/a"),
+        "Plan: " + data.get("plan"),
+        "",
+        data.get("note") || "Please send the install checklist."
+      ].join("\n");
+      window.location.href = "mailto:" + DESK + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    });
+
+    const cards = Array.from(document.querySelectorAll(".demo-card"));
+    const empty = document.getElementById("empty");
+    const search = document.getElementById("search");
+    let current = "all";
+    function applyFilters() {
+      const query = search.value.trim().toLowerCase();
+      let shown = 0;
+      cards.forEach((card) => {
+        const okVertical = current === "all" || card.dataset.vertical === current;
+        const okQuery = !query || card.dataset.search.includes(query);
+        const visible = okVertical && okQuery;
+        card.style.display = visible ? "" : "none";
+        if (visible) shown += 1;
+      });
+      empty.style.display = shown ? "none" : "block";
+    }
+    document.querySelectorAll(".filter").forEach((button) => {
+      button.addEventListener("click", () => {
+        current = button.dataset.filter;
+        document.querySelectorAll(".filter").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+        applyFilters();
+      });
+    });
+    search.addEventListener("input", applyFilters);
+  </script>
+</body>
+</html>
